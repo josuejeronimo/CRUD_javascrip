@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ejemplo Bootswach</title>
+    <!--bootswach css -->
+    <link rel="stylesheet" href="./css/bootstrap.min.css">
+</head>
+<body>
+
+    <!--Navegacion  -->
+    <nav class="navbar navbar-expand-lg navbar-dark bg-primary" >
+        <div class="container-fluid">
+          <a class="navbar-brand" href="https://www.google.com/?hl=es">PRODUCTOS</a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarColor01" aria-controls="navbarColor01" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          </nav>
+
+    <div class="contenedor ">
+
+        <!--Aplicacion -->
+        <div id="App" class="fila5">
+
+            <!--Formulario -->
+            <div class="columna 4">
+
+                <div class="tarjeta">
+                    <div class="tarjeta-header ">
+                        <h4>Agregar Producto</h4>
+                        </div>
+
+                        <form id="formulario-producto" class="tarjeta-cuerpo">
+                            <div class="formulario-grupos">
+                                <input type="text" id="Nombre" placeholder="Nombre del producto" class="control-formulario">
+                                <input type="submit" id="Guardar" value="Guardar" class="btn btn-primario btn-bloque">
+                            </div>
+                        </form>
+                </div>
+            </div>
+            <!-- Termina Formulario -->
+        </div>
+    </div>    
+    <script src="app.js"></script>
+</body>
+</html>
